@@ -13,7 +13,7 @@ class MyPicture extends StatelessWidget {
         width: 500,
         height: 500,
         image: AssetImage('assets/images/black.jpg'),
-        fit: BoxFit.fill,
+        fit: BoxFit.fitWidth,
       ),
     );
   }
