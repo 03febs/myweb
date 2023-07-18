@@ -8,14 +8,21 @@ class KotakKanan extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(10),
-      child: Container(
-        width: 500,
-        height: 500,
-        // color: Colors.blue,
-        child: const MyPicture(),
-      ),
+    return Column(
+      children: [
+        const SizedBox(
+          height: 56,
+        ),
+        Padding(
+          padding: const EdgeInsets.all(10),
+          child: Container(
+            width: 500,
+            height: 500,
+            // color: Colors.blue,
+            child: const MyPicture(),
+          ),
+        ),
+      ],
     );
   }
 }

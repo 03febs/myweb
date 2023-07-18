@@ -48,12 +48,21 @@ class HomePage1 extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Flexible(
-              child: Container(
-            width: 1300,
-            height: double.infinity,
-            color: Colors.black,
-            child: width > 1200 ? const Horizontal() : const Vertical(),
-          )),
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  const SizedBox(height: 56),
+                  Container(
+                    width: 1300,
+                    // height: double.infinity,
+                    // height: 500,
+                    color: Colors.black,
+                    child: width > 1200 ? const Horizontal() : const Vertical(),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
       // AutoScrollTag(key: const ValueKey(1), controller: ctrl, index: 1, child: const About()),

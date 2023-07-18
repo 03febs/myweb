@@ -28,6 +28,7 @@ class KotakKiri extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SelectableText.rich(
+            textAlign: TextAlign.center,
             TextSpan(
               style: const TextStyle(
                 color: Colors.white,
@@ -48,7 +49,10 @@ class KotakKiri extends StatelessWidget {
                   text: 'FEBRIE TSANI SOVRANITA',
                   style: GoogleFonts.openSans(
                     textStyle: const TextStyle(
-                        color: Color.fromARGB(255, 54, 217, 13), fontSize: 42, fontWeight: FontWeight.w800),
+                      color: Color.fromARGB(255, 54, 217, 13),
+                      fontSize: 42,
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
                   //   fontWeight: FontWeight.w800,
                   //   fontSize: 42,
