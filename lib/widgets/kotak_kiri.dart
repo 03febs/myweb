@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter4/screen/halaman_home/text_introduce.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class KotakKiri extends StatelessWidget {
   const KotakKiri({
@@ -35,16 +36,25 @@ class KotakKiri extends StatelessWidget {
               children: [
                 TextSpan(
                   text: 'Hello, I\'m ',
-                  style: TextStyle(letterSpacing: 2.0, fontWeight: FontWeight.bold, fontSize: hitung(width)),
-                ),
-                const TextSpan(
-                  text: 'FEBRIE TSANI SOVRANITA',
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 54, 217, 13),
-                    fontWeight: FontWeight.w800,
-                    fontSize: 42,
-                    letterSpacing: 1.0,
+                  style: GoogleFonts.robotoMono(
+                    textStyle: TextStyle(
+                      letterSpacing: 2.0,
+                      fontWeight: FontWeight.bold,
+                      fontSize: hitung(width),
+                    ),
                   ),
+                ),
+                TextSpan(
+                  text: 'FEBRIE TSANI SOVRANITA',
+                  style: GoogleFonts.openSans(
+                    textStyle: const TextStyle(color: Color.fromARGB(255, 54, 217, 13)),
+                  ),
+                  //   fontWeight: FontWeight.w800,
+                  //   fontSize: 42,
+                  //   letterSpacing: 1.0,))
+                  // style: TextStyle(
+                  //
+                  // ),
                 ),
               ],
             ),
@@ -54,12 +64,19 @@ class KotakKiri extends StatelessWidget {
           ),
           Text(
             'A Back-End Web Developer | Robot Engineer',
-            style: TextStyle(
-                fontSize: hitung(width),
-                height: 0.9,
-                letterSpacing: 2.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.white),
+            style: GoogleFonts.openSans(
+                textStyle: TextStyle(
+                    fontSize: hitung(width),
+                    height: 0.9,
+                    letterSpacing: 2.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white)),
+            // style: TextStyle(
+            // fontSize: hitung(width),
+            // height: 0.9,
+            // letterSpacing: 2.0,
+            // fontWeight: FontWeight.bold,
+            // color: Colors.white),
             textAlign: TextAlign.center,
           ),
           // SizedBox(
