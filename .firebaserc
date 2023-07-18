@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "sovranita-febs"
+  },
+  "targets": {
+    "sovranita-febs": {
+      "hosting": {
+        "febrie1": [
+          "sovranita-febs"
+        ],
+        "febrie2": [
+          "febrie"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
