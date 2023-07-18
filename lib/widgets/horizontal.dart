@@ -10,12 +10,15 @@ class Horizontal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: [
-        KotakKiri(),
-        KotakKanan(),
-      ],
+    return const SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          KotakKiri(),
+          KotakKanan(),
+        ],
+      ),
     );
   }
 }

@@ -19,8 +19,8 @@ class KotakKiri extends StatelessWidget {
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
     return Container(
-      alignment: Alignment.bottomLeft,
-      width: 550,
+      // alignment: Alignment.bottomLeft,
+      width: 800,
       height: 500,
       color: Colors.transparent,
       padding: const EdgeInsets.all(5),
@@ -47,7 +47,8 @@ class KotakKiri extends StatelessWidget {
                 TextSpan(
                   text: 'FEBRIE TSANI SOVRANITA',
                   style: GoogleFonts.openSans(
-                    textStyle: const TextStyle(color: Color.fromARGB(255, 54, 217, 13)),
+                    textStyle: const TextStyle(
+                        color: Color.fromARGB(255, 54, 217, 13), fontSize: 42, fontWeight: FontWeight.w800),
                   ),
                   //   fontWeight: FontWeight.w800,
                   //   fontSize: 42,
