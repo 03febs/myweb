@@ -16,7 +16,7 @@ class HomePage1 extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       extendBodyBehindAppBar: true,
-      appBar: width > 1100
+      appBar: width > 1200
           ? AppBar(
               backgroundColor: Colors.transparent,
               toolbarHeight: 90,
@@ -37,7 +37,7 @@ class HomePage1 extends StatelessWidget {
               //     },
               //     icon: const Icon(Icons.menu)),
             ),
-      drawer: width <= 1100 ? const DrawerSatu() : null,
+      drawer: width <= 1200 ? const DrawerSatu() : null,
       // appBar: AppBar(
       //   title: Text(
       //     width.toString(),
