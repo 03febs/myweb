@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter4/home/coba_home.dart';
 // import 'package:flutter4/home/home_page.dart';
-import 'package:flutter4/home/home_page1.dart';
+// import 'package:flutter4/home/home_page1.dart';
+
+import '../a.product_list/c.product_list.view.dart';
 // import 'package:flutter4/screen/home.dart';
 
 // import '../screen/my_picture.dart';
@@ -22,7 +24,8 @@ class MyApp extends StatelessWidget {
       // ),
       // theme: ThemeData.from(colorScheme: const ColorScheme.dark()),
       // home: HomePage(),
-      home: HomePage1(),
+      // home: HomePage1()
+      home: ProductListView(),
     );
   }
 }

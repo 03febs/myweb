@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../ctrl.dart';
+// import '../ctrl.dart';
 
 class DrawerSatu extends StatelessWidget {
   const DrawerSatu({super.key});
@@ -28,7 +28,7 @@ class DrawerSatu extends StatelessWidget {
                   ),
                   onTap: () {
                     debugPrint('ini print from Home');
-                    ctrl.scrollToIndex(0);
+                    // ctrl.scrollToIndex(0);
                   },
                 ),
                 ListTile(
@@ -42,7 +42,7 @@ class DrawerSatu extends StatelessWidget {
                   ),
                   onTap: () {
                     debugPrint('ini print from Home');
-                    ctrl.scrollToIndex(1);
+                    // ctrl.scrollToIndex(1);
                   },
                 ),
                 ListTile(
@@ -56,7 +56,7 @@ class DrawerSatu extends StatelessWidget {
                   ),
                   onTap: () {
                     debugPrint('ini print from Home');
-                    ctrl.scrollToIndex(2);
+                    // ctrl.scrollToIndex(2);
                   },
                 ),
                 ListTile(
@@ -70,7 +70,7 @@ class DrawerSatu extends StatelessWidget {
                   ),
                   onTap: () {
                     debugPrint('ini print from Home');
-                    ctrl.scrollToIndex(3);
+                    // ctrl.scrollToIndex(3);
                   },
                 ),
                 ListTile(
@@ -84,7 +84,7 @@ class DrawerSatu extends StatelessWidget {
                   ),
                   onTap: () {
                     debugPrint('ini print from Home');
-                    ctrl.scrollToIndex(4);
+                    // ctrl.scrollToIndex(4);
                   },
                 ),
               ],
