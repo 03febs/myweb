@@ -25,7 +25,17 @@ class SmallScreen extends StatelessWidget {
           Container(
             height: null,
             width: double.infinity,
-            color: Colors.grey[800],
+            // color: Colors.grey[800],
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: const AssetImage("assets/images/bg.jpg"),
+                fit: BoxFit.cover,
+                colorFilter: ColorFilter.mode(
+                  Colors.black.withOpacity(0.7),
+                  BlendMode.darken,
+                ),
+              ),
+            ),
             child: const Center(
                 child: Column(
               children: [

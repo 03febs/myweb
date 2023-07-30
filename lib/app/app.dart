@@ -16,8 +16,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark(),
       // theme: ThemeData(
       //   brightness: Brightness.dark,
       //   primaryColorDark: Colors.black,
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData.from(colorScheme: const ColorScheme.dark()),
       // home: HomePage(),
       // home: HomePage1()
-      home: ProductListView(),
+      home: const ProductListView(),
     );
   }
 }

@@ -21,9 +21,20 @@ class BigScreen extends StatelessWidget {
           Container(
             height: 700,
             width: double.infinity,
-            color: Colors.grey[800],
+            // color: Colors.grey[800],
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: const AssetImage("assets/images/bg.jpg"),
+                fit: BoxFit.cover,
+                colorFilter: ColorFilter.mode(
+                  Colors.black.withOpacity(0.7),
+                  BlendMode.darken,
+                ),
+              ),
+            ),
             child: const Center(
                 child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SizedBox(
                   height: 80,

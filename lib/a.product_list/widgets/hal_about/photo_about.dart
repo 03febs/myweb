@@ -11,7 +11,13 @@ class PhotoAbout extends StatelessWidget {
       margin: const EdgeInsets.all(10),
       height: 300,
       width: 300,
-      color: Colors.grey,
+      color: Colors.grey[800],
+      child: const Center(
+        child: Text(
+          'Photo',
+          textScaleFactor: 2,
+        ),
+      ),
     );
   }
 }
